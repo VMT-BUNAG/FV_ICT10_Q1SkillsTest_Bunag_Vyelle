@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+    <title>Skills Test</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <h1>OBMC Entrep Fair - Maison Poy's Dubai Chewy Cookie</h1>
+
+        <h3>Menu:</h3>
+
+        <!-- Menu items -->
+        <div>
+            <input type="checkbox" id="original">
+            <label for="original">Original Chewy Cookie - ₱85.00</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="pistachio">
+            <label for="pistachio">Pistachio Knafeh Dubai Cookie - ₱150.00</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="dark">
+            <label for="dark">Dark Chocolate Dubai Cookie - ₱130.00</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="white">
+            <label for="white">White Chocolate Biscoff Dubai Cookie - ₱140.00</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="matcha">
+            <label for="matcha">Matcha Dubai Cookie - ₱135.00</label>
+        </div>
+
+        <br>
+
+        <!-- Button -->
+        <button id="order" class="btn btn-primary">Create Order</button>
+
+        <hr>
+
+        <!-- Receipt -->
+        <h3>===== Receipt =====</h3>
+
+        <div id="receipt"></div>
+
+    </div>
+
+    <py-script src="main.py"></py-script>
+
+</body>
+
+</html>
